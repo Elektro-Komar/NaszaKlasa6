@@ -258,7 +258,7 @@ menu .drawer-list {
     position: fixed;
     right: 0;
     top: 0;
-    height: 40%;
+    height: 100%;
     width: 100vw;
     transform: translate(100vw, 0);
     /* ie workaround */
@@ -266,13 +266,11 @@ menu .drawer-list {
     box-sizing: border-box;
     pointer-events: none;
     padding-top: 125px;
-    transition: width 475ms ease-out, transform 450ms ease, border-radius .8s .1s ease;
+    transition: width 650ms ease-out, transform 600ms ease, border-radius .8s .1s ease;
     border-bottom-left-radius: 100vw;
-    background-color: #444343;
-    background-color: rgba(121, 126, 126, 0.5);
+    background-color: rgba(50, 50, 50, 0.6);
     backdrop-filter: blur(0.2rem);
     z-index: 11;
-    box-shadow: border;
 }
 
 @media (min-width: 768px) {
